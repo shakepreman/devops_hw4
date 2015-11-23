@@ -1,0 +1,7 @@
+#!/bin/bash
+
+docker rmi testapp
+docker rmi localhost:5000/testapp
+docker build -t testapp .
+docker tag -f testapp localhost:5000/testapp
+docker push localhost:5000/testapp
