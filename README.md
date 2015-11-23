@@ -32,7 +32,7 @@ docker run -it --link container1:container1 --name container2 container2 curl co
 ### 3. Task3
 
 * Create a Digital Ocean Droplet
-* Copy Deply folder from [here](https://github.com/shakepreman/devops_hw4/tree/master/Task3)
+* Copy Depoly folder from [here](https://github.com/shakepreman/devops_hw4/tree/master/Task3)
 * Clone provided app from [here](https://github.com/CSC-DevOps/App)
 * Add a post-commit hook for App from here [here](https://github.com/shakepreman/devops_hw4/tree/master/Task3/App_hooks)
 * Modify main.js and push changes to the blue branch.
