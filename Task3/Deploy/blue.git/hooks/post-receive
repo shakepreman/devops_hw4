@@ -1,0 +1,6 @@
+#!/bin/sh
+
+docker pull localhost:5000/testapp
+docker stop blue-testapp
+docker rm blue-testapp
+docker run -d -p 8082:8080 --name blue-testapp localhost:5000/testapp

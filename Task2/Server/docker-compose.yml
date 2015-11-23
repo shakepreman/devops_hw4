@@ -1,0 +1,9 @@
+Server:
+  image: crosbymichael/redis
+
+Ambassador:
+  image: svendowideit/ambassador
+  links: 
+    - Server:Server
+  ports: 
+    - "6379:6379"
